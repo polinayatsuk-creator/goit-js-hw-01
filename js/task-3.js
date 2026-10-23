@@ -2,7 +2,7 @@
 
 function getElementWidth(content, padding, border) {
   const totalWidth = content + padding * 2 + border * 2;
-  return `загальна ширина = ${totalWidth}`;
+  return totalWidth;
 }
 
 console.log(getElementWidth(50, 8, 4)); // 74
